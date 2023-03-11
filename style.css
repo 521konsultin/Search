@@ -1,0 +1,43 @@
+.search {
+  width: 450px;
+  height: 30px;
+  background-color: beige;
+  border-radius: 15px;
+  transition: background-color 2s;
+  
+}
+
+.search:hover,
+.search:focus{
+    background-color: rgb(226, 222, 222);
+    transform: translateY(-0.10em);
+
+}
+
+.search2 {
+  margin: 10px;
+}
+
+p {
+  text-align: right;
+  font-family: "roboto";
+}
+
+form {
+  margin: 50px;
+  text-align: center;
+  color: blue;
+}
+
+div {
+  font-family: "roboto";
+}
+.advanced{
+    position: relative;
+    width:350px;
+    top: 50%;
+    margin: 8px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    
+}
