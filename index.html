@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHECKLIST</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <div id="checklist">
+        <h2>Trade Execution Checklist</h2>
+        <ol>
+          <li class="checklist-item">
+            <input type="checkbox" id="trend" name="trend">
+            <label for="trend">Trend (UP | DOWN)</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="divergence" name="divergence">
+            <label for="divergence">Confirm H1 Divergence</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="liquidity" name="liquidity">
+            <label for="liquidity">Check Liquidity</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="stoch_rsi" name="stoch_rsi">
+            <label for="stoch_rsi">Check STOCH and RSI</label>
+          </li>
+          <li class="checklist-item">
+            <input type="checkbox" id="move_type" name="move_type">
+            <label for="move_type">Prior move (Impulsive or Corrective)</label>
+          </li>
+        </ol>
+        <button id="execute-button" disabled>Confirm Trade</button>
+      </div>
+      
+  </body>
+</html>
+
+
